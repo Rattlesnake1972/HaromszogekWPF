@@ -1,0 +1,22 @@
+﻿<Window x:Class="HaromszogekWPF.MainWindow" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HaromszogekWPF"
+        mc:Ignorable="d" 
+        Title="Háromszögek" Height="557" Width="800" Background="#FFBA8634">
+    <Grid Margin="29,10,41,18">
+        <DataGrid x:Name="tablazat" Margin="83,23,493,10"/>
+        <TextBox x:Name="atextbox" HorizontalAlignment="Left" Margin="478,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="btextbox" HorizontalAlignment="Left" Margin="476,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ctextbox" HorizontalAlignment="Left" Margin="478,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="hozzaad" Content="Hozzáad" HorizontalAlignment="Left" Margin="478,176,0,0" VerticalAlignment="Top" Click="hozzaad_Click"/>
+        <Button x:Name="mentes" Content="Mentés" HorizontalAlignment="Left" Margin="478,454,0,0" VerticalAlignment="Top" Click="mentes_Click"/>
+        <Label x:Name="alabel" Content="a oldal:" HorizontalAlignment="Left" Margin="417,23,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="blabel" Content="b oldal:" HorizontalAlignment="Left" Margin="417,68,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="clabel" Content="c oldal:" HorizontalAlignment="Left" Margin="417,115,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+    
+</Window>
